@@ -6,6 +6,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+//import javax.swing.text.Element;
+//import javax.swing.text.html.ImageView;
+
 //import java.util.Vector;
 
 import javafx.application.Application;
@@ -17,6 +20,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleGroup;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 
@@ -570,7 +575,15 @@ public class Main extends Application {
 			lblName.setLayoutY(50);
 			lblName.setVisible(true);
 			root.getChildren().add(lblName);
-			
+			File fileImage = new File("image.jpeg");
+			Image imageA = new Image(fileImage.toString());//getClass().getResourceAsStream("image.jpeg"));
+	        //Button image = new Button();//"",new ImageView(imageA));
+	        //image.setGraphic(new ImageView((Element) imageA));
+			ImageView image = new ImageView(imageA);
+	        image.resize(200, 200);
+	        image.setLayoutX(50);
+	        image.setLayoutY(100);
+	        root.getChildren().add(image);
 			
 			// Quiz screen
 			BorderPane quizPane = new BorderPane();
@@ -957,3 +970,4 @@ public class Main extends Application {
 		launch(args);
 	}
 }
+
