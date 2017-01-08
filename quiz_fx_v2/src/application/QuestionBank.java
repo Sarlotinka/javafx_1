@@ -41,13 +41,13 @@ public class QuestionBank {
 		Question q1 = new Question("Girrafes have 4 legs.", true);
 		Question q2 = new Question("Fish live on land.", false);
 		Question q3 = new Question("Dogs have tails.", true);
-		Question q4 = new Question("Hans lay eggs.", true);
-		Question q5 = new Question("Lion eat grass.", false);
+		Question q4 = new Question("Hens lay eggs.", true);
+		Question q5 = new Question("Lions eat grass.", false);
 		Question q6 = new Question("Birds have fur.", false);
-		Question q7 = new Question("Octopi have 8 tentickles.", true);
-		Question q8 = new Question("Elephant have 2 legs.", false);
+		Question q7 = new Question("Octopi have 8 tentacles.", true);
+		Question q8 = new Question("Elephants have 2 legs.", false);
 		Question q9 = new Question("Cats have wings.", false);
-		Question q10 = new Question("Fly have wings.", true);
+		Question q10 = new Question("Flies have wings.", true);
 		Question[] questions = {q1,q2,q3,q4,q5,q6,q7,q8,q9,q10};
 		this.questions = questions;
 	}

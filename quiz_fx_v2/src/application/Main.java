@@ -148,7 +148,7 @@ public class Main extends Application {
 			registerPane.resize(300, 500);
 			registerPane.setLayoutX(0);
 			registerPane.setLayoutY(0);
-			Label lblRegister = new Label("Please enter players name:");
+			Label lblRegister = new Label("Please enter user's name:");
 			lblRegister.resize(280, 50);
 			lblRegister.setLayoutX(10);
 			lblRegister.setLayoutY(100);
@@ -427,7 +427,7 @@ public class Main extends Application {
 			finishPane.getChildren().add(lblWinner);
 			
 			// login screen
-			Label lblLogin = new Label("Please enter players 1 name:");
+			Label lblLogin = new Label("Please enter Player 1's name:");
 			lblLogin.resize(280, 50);
 			lblLogin.setLayoutX(10);
 			lblLogin.setLayoutY(200);
@@ -444,7 +444,7 @@ public class Main extends Application {
 				      + "-fx-font-family: Courier New;"
 				      + "-fx-text-fill: black;");
 			loginPane.getChildren().add(textLogin);
-			Label lblLogin2 = new Label("Please enter players 2 name:");
+			Label lblLogin2 = new Label("Please enter Player 2's name:");
 			lblLogin2.resize(280, 50);
 			lblLogin2.setLayoutX(10);
 			lblLogin2.setLayoutY(300);
