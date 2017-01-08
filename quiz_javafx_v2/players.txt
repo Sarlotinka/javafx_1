@@ -1,0 +1,10 @@
+Adela	0
+Bedrich	1
+Cecilka	0
+Dusan	3
+Eva	5
+Fanda	4
+Anonymous	0
+Petr	1
+Eva	5
+Eva	5
